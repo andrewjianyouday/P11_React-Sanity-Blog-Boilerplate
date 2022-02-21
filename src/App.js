@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       <div>
          <Route component={AllPosts} path="/" exact />
-         <Route component={OnePost} path="/onePost"  />
+         <Route component={OnePost} path="/:slug"  />
       </div>
     </BrowserRouter>
 
